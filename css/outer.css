@@ -1,0 +1,370 @@
+.w{
+    width: 1150px;
+    margin: 0 auto;
+}
+body{
+    min-width: 1150px;
+    background-color: rgb(240, 240, 240);
+}
+/*最顶部导航条样式*/
+.topbar-wrapper {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(217, 223, 219);
+}
+.topbar-wrapper a {
+    float: right;
+    margin-left: 14px;
+    text-decoration: none;
+    color: rgb(92, 91, 91);
+    line-height: 20px;
+}
+/*logo导航条*/
+.topbar-wrapper2{
+    height: 84px;
+    background-color: #fff;
+}
+.immooc-logo{
+    float: left;
+}
+.topbar-wrapper2 .tel{
+    float: right;
+    margin-top: 38px;
+}
+.phonenumber{
+    float: right;
+    margin: 0 16px;
+    margin-top: 43px;
+    color: rgb(155, 155, 155);
+}
+.telnumber{
+    color: red;
+    font-size: 24px;
+    float: right;
+    margin-top: 30px;
+    margin-right: 18px;
+}
+/*首页一行的导航条*/
+.middlebar {
+    height: 42px;
+    background-color: rgb(119, 110, 101);
+}
+.nav a{
+    float: left;
+    line-height: 42px;
+    padding: 0 30px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: orange;
+}
+.search-service{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 103px;
+    position: absolute;
+}
+#search-logo{
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    margin-top: 14px;
+    margin-left: 280px;
+    font-size: 16px;
+    color: rgb(185,185,185);
+}
+/*简单轮播图样式*/
+.imgwrapper{
+    width: 1150px;
+    height: 310px;
+    overflow: hidden;
+    position: relative;
+}
+#imglist{
+    position: absolute;
+}
+#imglist img{
+    width: 1150px;
+    height: 310px;
+}
+#imglist a{
+    float: left;
+}
+/*新闻中心顶部导航条*/
+.news-top-nav{
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: 2px rgb(231,231,231) solid;
+    box-shadow: 5px 5px 40px rgb(161, 160, 160);
+}
+.news-top-nav a{
+    line-height: 45px;
+    font-size: 14px;
+    color: rgb(131,122,116);
+    font-weight: bold;
+    float: left;
+    margin-left: 25px; 
+    text-decoration: none;
+}
+.news-top-nav a:hover,.news-top-nav .news-top-nav-more:hover{
+    color: rgb(153, 14, 14);
+}
+.main-service{
+    margin-top: 6px;
+    height: 310px;
+}
+.newscentral{
+    width: 430px;
+    background-color:red;
+    float: left;
+}
+.news-top-nav .news-top-nav-more{
+    float: right;
+    margin-right: 20px;
+}
+.news-middle-nav{
+    height: 125px;
+    width: 100%;
+    background-color: rgb(235, 231, 231);
+    border: 2px rgb(235, 231, 231) solid;
+    border-bottom: none;
+}
+.news-bottom-nav{
+    height: 125px;
+    width: 100%;
+    background-color: rgb(235, 231, 231);
+    border: 2px rgb(235, 231, 231) solid;
+    border-top: none;
+}
+.news-middle-nav-inner{
+    margin-top: 17px;
+    margin-left: 24px;
+    float: left;
+}
+.news-poster{
+    float: left;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+.news-poster span{
+    height: 24px;
+    display: inline-block;
+}
+.news-poster a{
+    text-decoration: none;
+    color: black;
+}
+.news-poster a:hover{
+    color: rgb(153, 14, 14);
+}
+.news-bottom-nav li a{
+    height: 24px;
+    line-height: 24px;
+    color: black;
+    font-size: 13px;
+    margin-left: 24px;
+    text-decoration: none;
+}
+.interval{
+    border-bottom: dotted 1px rgb(143, 139, 139);
+}
+/*学习中心的基本样式*/
+.classcentral {
+    width: 430px;
+    height: 302px;
+    background-color: rgb(235, 231, 231);
+    float: left;
+    margin-left: 10px;
+}
+
+
+
+.class-top-nav {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: 2px rgb(231, 231, 231) solid;
+    box-shadow: 0px 0px 100px rgb(161, 160, 160);
+}
+
+.class-top-nav a {
+    line-height: 45px;
+    font-size: 14px;
+    color: rgb(131, 122, 116);
+    font-weight: bold;
+    float: left;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.class-top-nav a:hover,
+.class-top-nav .news-top-nav-more:hover {
+    color: rgb(153, 14, 14);
+}
+
+.class-top-nav .class-top-nav-more {
+    float: right;
+    margin-right: 20px;
+}
+
+.class-ad {
+    height: 254px;
+}
+
+.class-poster {
+    width: 242px;
+    height: 106px;
+    float: left;
+    margin-top: 17px;
+    margin-left: 5px;
+}
+
+.class-poster .text {
+    font-size: 12px;
+}
+
+.class-teach {
+    margin-top: 130px;
+    margin-left: 25px
+}
+.news-middle-nav-inner img{
+    width: 113px;
+    height: 88px;
+}
+.class-teach a{
+    float: left;
+    font-size: 20px;
+}
+.class-teach .class-teach-right{
+    float: right;
+}
+.classcentre-middle{
+    width: 100%;
+    height: 127px;
+    float: left;
+}
+.class-teach{
+    width: 100%;
+    height: 125px;
+    background-color: orange;
+    margin-left: 0px;
+}
+.class-teach li{
+    width: 50%;
+    height: 62.5px;
+    background-color: rgb(235, 231, 231);
+    line-height: 62.5px;
+    font-size: 18px;
+    float: left;
+    border: rgb(131, 122, 116,0.1) 1px solid;
+}
+.class-teach a{
+    padding-left:60px;
+    text-decoration: none;
+    color: black;
+}
+.class-teach li:hover{
+    background-color: rgb(175, 169, 169);
+}
+.class-teach a:hover{
+    color: orange;
+}
+/*媒体聚焦的基本样式*/
+.mediaforce {
+    width: 270px;
+    height: 302px;
+    background-color: rgb(240, 240, 240);
+    float: left;
+    margin-left: 10px;
+}
+
+.media {
+    width: 100%;
+    height: 140px;
+    background-color: #fff;
+    border: 2px rgb(231, 231, 231) solid;
+}
+.media img{
+    width: 270px;
+    height: 140px;
+}
+.advertisement {
+    width: 100%;
+    margin-top: 7px;
+    height: 98px;
+    background-color: #fff;
+    border: 2px rgb(231, 231, 231) solid;
+}
+.advertisement img{
+    width: 270px;
+    height: 100px;
+}
+/*底部简单样式*/
+.bottombar-wrapper {
+    width: 100%;
+    height: 240px;
+    background-color: rgb(232, 232, 232);
+}
+
+.about {
+    height: 240px;
+    width: 20%;
+    float: left;
+}
+.class {
+    height: 240px;
+    width: 20%;
+    float: left;
+}
+.concern {
+    height: 240px;
+    width: 20%;
+    float: left;
+}
+.message {
+    height: 240px;
+    width: 20%;
+    float: left;
+}
+.wechat {
+    height: 240px;
+    width: 222px;
+    float: left;
+}
+.bottom-info{
+    margin-top: 47px;
+}
+.bottom-info ul a{
+    font-size: 20px;
+    margin-left: 80px;
+    color: rgb(154,154,154);
+    text-decoration: none;
+}
+.bottom-info ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    margin-left:71px;
+}
+.bottom-info ul li{
+    margin: 10px 0;
+}
+.wechat-logo{
+    margin-top: 47px;
+    margin-left: 70px;
+}
+.QR-code{
+    margin-top: 12px;
+    margin-left: 68px;
+}
+.line{
+    float: left;
+    margin-top: 47px;
+}
+.wechat-force{
+    font-size: 16px;
+    color: rgb(162,161,157);
+
+}
